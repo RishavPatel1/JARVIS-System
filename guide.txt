@@ -1,3 +1,9 @@
+#Initiate Conda
+conda create -n JARVIS python=3.8 -y
+
+#Install requirement
+pip install -r requirements.txt
+
 pip install pyinstaller
 
 pyinstaller main.py
